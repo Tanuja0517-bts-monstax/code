@@ -1,0 +1,2 @@
+# code
+Constructor chaining

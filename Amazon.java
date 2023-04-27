@@ -27,25 +27,25 @@ class Amazon
 	
 	Amazon(String uname,String password,String reenterpwd,long mob,String mail,String location)
 	{
-		this.(uname,password,reenterpwd,mob,mail);
+		this(uname,password,reenterpwd,mob,mail);
 		this.location=location;
 	}
 	
 	Amazon(String uname,String password,String reenterpwd,long mob,String mail,String location,long amob)
 	{
-		this.(uname,password,reenterpwd,mob,mail,location);
+		this(uname,password,reenterpwd,mob,mail,location);
 		this.amob=amob;
 	}
 	
 	Amazon(String uname,String password,String reenterpwd,long mob,String mail,String location,long amob,String dob)
 	{
-		this.(uname,password,reenterpwd,mob,mail,location,amob);
+		this(uname,password,reenterpwd,mob,mail,location,amob);
 		this.dob=dob;
 	}
 	
 	Amazon(String uname,String password,String reenterpwd,long mob,String mail,String location,long amob,String dob,int age )
 	{
-		this.(uname,password,reenterpwd,mob,mail,location,amob,dob);
+		this(uname,password,reenterpwd,mob,mail,location,amob,dob);
 		this.age=age;
 	}
 	
